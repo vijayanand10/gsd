@@ -1,4 +1,6 @@
 CREATE DATABASE `gsd` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+use gsd;
 CREATE TABLE `admin` (
   `a_id` int(11) NOT NULL,
   `a_f_name` varchar(50) NOT NULL,
